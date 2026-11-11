@@ -1,0 +1,6 @@
+- Python 3.10+, use pathlib for all paths
+- GitPython for history, ast + vulture for code analysis
+- Streamlit UI, Plotly charts
+- pytest + hypothesis for tests
+- Type hints and docstrings on all public functions
+- Analysis logic stays separate from UI (no Streamlit imports in core/)
